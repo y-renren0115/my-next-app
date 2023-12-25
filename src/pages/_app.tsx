@@ -11,9 +11,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
     <>
-      <Header />
+      {/* <Header />
       <Navbar />
-      <Sidebar />
+      <Sidebar /> */}
       {/* <main>
         <Component {...pageProps} />
       </main> */}
